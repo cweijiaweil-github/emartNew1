@@ -1,0 +1,13 @@
+server:
+  port: 8082
+spring:
+  application:
+    name: app-buyer
+  main:
+    allow-bean-definition-overriding: true 
+eureka:
+  client:
+    service-url:
+           defaultZone: http://127.0.0.1:9100/eureka
+    register-with-eureka: false
+    fetch-registry: false

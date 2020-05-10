@@ -1,0 +1,75 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SellerApplication",
+            "request": "launch",
+            "mainClass": "com.emart.SellerApplication",
+            "projectName": "microservice-seller"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ItemApplication",
+            "request": "launch",
+            "mainClass": "com.emart.ItemApplication",
+            "projectName": "microservice-seller"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BuyerApplication",
+            "request": "launch",
+            "mainClass": "com.emart.buyer.BuyerApplication",
+            "projectName": "user"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - UserApplication",
+            "request": "launch",
+            "mainClass": "com.emart.user.UserApplication",
+            "projectName": "user"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Eureka1Application<eureka1>",
+            "request": "launch",
+            "mainClass": "com.emart.eureka1.Eureka1Application",
+            "projectName": "eureka1"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-OrderApplication<microservice-buyer>",
+            "request": "launch",
+            "mainClass": "com.emart.order.OrderApplication",
+            "projectName": "microservice-buyer"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ItemApplication<microservice-seller>",
+            "request": "launch",
+            "mainClass": "com.emart.item.ItemApplication",
+            "projectName": "microservice-seller"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DemoApplication",
+            "request": "launch",
+            "mainClass": "com.emart.user.DemoApplication"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-OrderApplication",
+            "request": "launch",
+            "mainClass": "com.emart.order.OrderApplication"
+        }
+    ]
+}
